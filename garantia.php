@@ -13,8 +13,11 @@
         <div class="container-fullscreen">
             <div class="text-middle">
                 <div class="row">
-                <div class="heading-text heading-section text-center">
-            <h2>GARANTIA</h2>
+                    <div class="heading-text heading-section text-center">
+                        <h2>GARANTIA</h2>
+                    </div>
+                </div>
+            </div>    
         </div>
         <section class="">
             <div class="container">
