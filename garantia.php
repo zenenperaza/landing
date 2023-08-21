@@ -10,7 +10,7 @@
         ?>
         <!-- end: Header -->
 
-        <div class="container-fullscreen">
+        <div class="container">
             <div class="text-middle">
                 <div class="row">
                     <div class="heading-text heading-section text-center">
