@@ -1,13 +1,6 @@
 <?php
     include('./inclusiones/head.php');
 ?>
-<body>
-    <!-- Body Inner -->
-    <div class="body-inner">
-        <!-- Header -->
-        <?php
-            include('./inclusiones/header.php');
-        ?>
         <style>
             .left .post-thumbnail-entry {
                 display: flex;
@@ -28,36 +21,127 @@
                 display: flex;
                 flex-direction: column;
             }
+            .left img {
+                margin-left: 10px;
+            }
         </style>
-        <!-- end: Header -->
-  
+<body>
+    <!-- Body Inner -->
+    <div class="body-inner">
+        <!-- Header -->
+        <?php
+            include('./inclusiones/header.php');
+        ?>
+
         <section id="page-content" >
             <div class="container">
-                <div class="page-title text-center">
-                    <h1 class="text-uppercase text-medium">ABOUT US</h1>
-                    <span>Work is easy when you have all tools around you!</span>
+                <div class="container-fullscreen">
+                    <div class="text-middle">
+
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class=" m-t-40 p-t-40">
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero pariatur rem tempora quisquam maxime voluptatibus velit quasi fugit odit inventore. Deleniti soluta laudantium voluptates exercitationem atque tenetur minima tempora voluptatibus.</p>
+                                    
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero pariatur rem tempora quisquam maxime voluptatibus velit quasi fugit odit inventore. Deleniti soluta laudantium voluptates exercitationem atque tenetur minima tempora voluptatibus.</p>
+                               
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero pariatur rem tempora quisquam maxime voluptatibus velit quasi fugit odit inventore. Deleniti soluta laudantium voluptates exercitationem atque tenetur minima tempora voluptatibus.</p>
+                               
+                                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Libero pariatur rem tempora quisquam maxime voluptatibus velit quasi fugit odit inventore. Deleniti soluta laudantium voluptates exercitationem atque tenetur minima tempora voluptatibus.</p>
+                               
+                                </div>
+                            </div>
+                            <div class="col-lg-5 offset-1">
+
+                                <div id="book" class="card text-dark">
+                                    <div class="card-body">
+                                        <form method="post" action="#">
+                                            <h3 class="m-b-20">FORMULARIO PARA TU WEB</h3>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <label>NAME/SURNAME</label>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group">
+                                                        <label>E-MAIL</label>
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <label>FROMULARIO</label>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6">
+                                                    <div class="form-group">
+                                                        <label>PARA FORM</label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label>Date &amp; Time</label>
+            
+                                                            <div id="datetimepicker1" class="input-group date">
+                                                                <input type="text" class="form-control">
+                                                                <span class="input-group-text">
+                                                                    <span class="fa fa-calendar"></span>
+                                                                </span>
+                                                            </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="col-lg-6 col-md-6 col-6">
+                                                    <div class="form-group">
+                                                        <label>Persons</label>
+                                                        <input class="form-control" type="number" min="1" max="10" value="" name="children"
+                                                            placeholder="0">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-lg-12">
+                                                    <div class="form-group">
+                                                        <button class="btn btn-dark m-t-20">comprar ahora</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
 
-
-                
-<div class="container">
+        <section id="page-content" >
+            <div class="container">
                 <div class="row">
                     <dvi class="col-2"></dvi>
                     <div class="col-lg-6 ">                       
                         <p class="">This is a simple hero unit, a simple call-to-action-style component for calling extra attention to featured content.</p>
                     </div>
-                    <div class="col-lg-4 align-self-center text-align-last-center"> <a class="btn btn-primary ">Call us now!</a> </div>
+                    <div class="col-lg-4 align-self-center text-align-last-center"> <a class="btn btn-primary ">Comprar!</a> </div>
                 </div>
-</div>
+            </div>
+        </section>
 
         <section id="page-content" >
 
 
             <div class="container">
                 <div class="row justify-content-center ">
-
                     
                             <!-- Sidebar-->
                             <div class=" col-lg-4">
@@ -91,14 +175,14 @@
                                     </div>
                                 </div>
                                 <!--End: Tabs with Posts-->
-                             
+                                
                             </div>
                             <!-- end: Sidebar-->                    <!-- Sidebar-->
                             <div class=" col-lg-4">
                             <div class="team-image">
                                 <img src="images/team/9.jpg">
                             </div>
-                          
+                            
                             </div>
                             <!-- end: Sidebar-->                    <!-- Sidebar-->
                             <div class=" col-lg-4">
@@ -132,7 +216,7 @@
                                     </div>
                                 </div>
                                 <!--End: Tabs with Posts-->
-                              
+                                
                                 <!--end: widget newsletter-->
                             </div>
                             <!-- end: Sidebar-->
